@@ -14,11 +14,14 @@ namespace MVCApplication_PluralSight
     {
         public static void Main(string[] args)
         {
+            // Code begins running here.
             CreateWebHostBuilder(args).Build().Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
+
+        // CreateDefaultBuilder: set up a host builder with some defaults.
     }
 }
