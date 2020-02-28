@@ -15,7 +15,9 @@ namespace MVCApplication_PluralSight
         public static void Main(string[] args)
         {
             // Code begins running here.
-            CreateWebHostBuilder(args).Build().Run();
+            CreateWebHostBuilder(args)
+                .Build()
+                .Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
